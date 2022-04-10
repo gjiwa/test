@@ -1,0 +1,19 @@
+body {
+    background-image: url(img/pexels-kammeran-gonzalezkeola-9638689.jpg);
+    background-size: 100%;
+}
+
+p {
+    color: #fff;
+    font-family: Halvetica;
+    font-size: 100px;
+    text-align: center;
+    background-color: rgb(117, 175, 111);
+}
+.p-1 {
+    background-color: aqua;
+}
+
+.button {
+    color: white;
+} 
