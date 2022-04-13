@@ -17,3 +17,13 @@ p {
 .button {
     color: white;
 } 
+
+.empty_container {
+    display:flex;
+    background-color: black;
+    height: 100px;
+    border: 2px;
+    border-color: white;
+    color: white;
+    margin: 10 px;
+}
