@@ -1,6 +1,7 @@
 body {
     background-image: url(img/pexels-kammeran-gonzalezkeola-9638689.jpg);
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 p {
@@ -10,6 +11,12 @@ p {
     text-align: center;
     background-color: rgb(117, 175, 111);
 }
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
 .p-1 {
     background-color: aqua;
 }
@@ -18,12 +25,3 @@ p {
     color: white;
 } 
 
-.empty_container {
-    display:flex;
-    background-color: black;
-    height: 100px;
-    border: 2px;
-    border-color: white;
-    color: white;
-    margin: 10 px;
-}

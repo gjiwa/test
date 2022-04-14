@@ -1,0 +1,15 @@
+.empty_container {
+    display:flex;
+    background-color: #b8b8b8;
+    opacity: 0.5;
+    height: 100px;
+    border: 2px;
+    border-color: white;
+    color: white;
+    margin: 10 px;
+}
+
+.photos-1 {
+    display:flex;
+    align-items: flex-start;
+}
