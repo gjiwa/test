@@ -1,7 +1,12 @@
 body {
-    background-image: url(img/pexels-kammeran-gonzalezkeola-9638689.jpg);
+    background-image: url(img/pexels-kammeran-gonzalezkeola-11360709.jpg);
     background-size: 100%;
     background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 p {
@@ -12,9 +17,65 @@ p {
     background-color: rgb(117, 175, 111);
 }
 
-img {
+.main-header-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.main-header-logo img {
+    width: 100px;
+}
+
+/*img {
     max-width: 100%;
     height:auto;
+}*/
+
+/*Контейнер-центровщик*/
+.page-body {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 30px;
+    /*Обозначения контейнеров*/
+    outline: 5px solid rgba(0, 255, 0, 0.7);
+    outline-offset: -5px;
+}
+
+.main-header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main-navigation {
+    display: grid;
+    justify-content: flex-start;
+    background-color: blueviolet;
+}
+
+.main-header-logo {
+    display:grid;
+    background-color: aqua;
+    font-size: 30px;
+}
+
+.main-header-bar {
+    background-color: black;
+}
+
+.main-navigation-wrapper {
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    background-color: brown;
+}
+
+.site-navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.site-navigation li {
+    list-style-type: none;
 }
 
 .p-1 {

@@ -6,20 +6,23 @@
         <link rel="stylesheet" href="/*Google Fonts*/">
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="../style.css">
-        <link rel="stylesheet" href="styles/page-2.css">
+        <link rel="stylesheet" href="../styles/page-2.css">
     </head>
     <body class="page-body">
         <header class="main-header">
             <nav class="main-navigation">
                 <a class="main-header-logo" href="../index.html">
-                    На главную
+                    <img src="/img/Hel-o.svg">
                 </a>
-                <div class="main-navigation-wrapper">
-                    <ul class="site-navigation">
-                        <li>Страница1</li>
-                        <li>Страница2</li>
-                        <li>Страница3</li>
-                    </ul>
+                <!--Обертка main-header-bar для полоски хедера-->
+                <div class="main-header-bar">
+                    <div class="main-navigation-wrapper">
+                        <ul class="site-navigation">
+                            <li>Пункт меню 1</li>
+                            <li>Пункт меню 2</li>
+                            <li>Пункт меню 3</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="user-navigation">
                     <a class="login-link" href="#">Вход</a>
@@ -30,8 +33,12 @@
         <div class="empty_container">2</div>
 
         <div class="photos-1">
-            <img src="../img/pexels-pixabay-266004.jpg" width=" 10%">
-            <img src="../img/pexels-hannah-bickmore-11269038.jpg" width="10%">
+            <div class="photo-1">
+                <img src="../img/pexels-pixabay-266004.jpg">
+            </div>
+            <div class="photo-2">
+                <img src="../img/pexels-hannah-bickmore-11269038.jpg">
+            </div>
         </div>
     </body>
 </html>
