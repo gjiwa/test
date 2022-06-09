@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="/*Google Fonts*/">
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="../style.css">
-        <link rel="stylesheet" href="../styles/page-3.css">
+        <link rel="stylesheet" href="../styles/page-4.css">
     </head>
     <body class="page-body">
         <header class="main-header">
@@ -30,25 +30,27 @@
             </nav>
         </header>
         <div class="html-features">
-            <input type="date">
-            <label for="username">Your name</label>
-            <input type="text" id="username">
-            <a href="/img/catbread.jpg" download="/img/catbread.jpg">Surprise me with funny picture!</a>
-            <a href="tel:123123123">Call me: 123123123 (Don't)</a>
+            <form>
+                <fieldset>
+                  <legend>Fruit juice size</legend>
+                  <p>
+                    <input type="radio" name="size" id="size_1" value="small">
+                    <label for="size_1">Small</label>
+                  </p>
+                  <p>
+                    <input type="radio" name="size" id="size_2" value="medium">
+                    <label for="size_2">Medium</label>
+                  </p>
+                  <p>
+                    <input type="radio" name="size" id="size_3" value="large">
+                    <label for="size_3">Large</label>
+                  </p>
+                </fieldset>
+              </form>
         </div>
 
         <div class="container">
-            <ul class="gallery-list">
-                <li class="gallery-item gallery-item-big">
-                    <img class="gallery-item-img" src="../img/pexels-adrien-olichon-3709434.jpg">
-                </li>
-                <li class="gallery-item">
-                    <img class="gallery-item-img" src="../img/pexels-hannah-bickmore-11268993.jpg">
-                </li>
-                <li class="gallery-item">
-                    <img class="gallery-item-img" src="../img/pexels-hannah-bickmore-11269038.jpg">
-                </li>
-            </ul>
+            
         </div>
     </body>
 </html>
